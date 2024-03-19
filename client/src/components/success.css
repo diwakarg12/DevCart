@@ -1,0 +1,119 @@
+.payment-successful {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 82vh;
+}
+
+.success-message {
+  text-align: left;
+  color: black;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.success-message h2 {
+  margin-left: 5rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.success-message h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  margin-left: 5rem;
+  font-weight: 500;
+  color: green;
+}
+
+.success-message p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  margin-left: 5rem;
+  margin-right: 3rem;
+}
+
+.success-message img {
+  width: 30rem;
+  height: auto;
+  margin-left: 5rem;
+}
+
+.success-message button {
+  font-size: 1rem;
+  margin-left: 5rem;
+  border-radius: 0.6rem;
+  width: 50%;
+  margin-top: 1rem;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(34, 147, 34, 0.848);
+}
+
+.success-message button a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.success-message button a:hover {
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+.success-image {
+  width: 50%;
+}
+
+.success-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .payment-successful {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .success-message {
+    width: 100%;
+    margin: 1rem 0 0 0;
+    padding: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .success-message h2 {
+    font-size: 2.2rem;
+    margin: 0 0 0.4rem 0;
+  }
+
+  .success-message h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+  }
+
+  .success-message p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+  }
+
+  .success-message button {
+    text-align: center;
+    width: 80%;
+    margin: 0;
+  }
+}
